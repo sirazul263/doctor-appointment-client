@@ -1,0 +1,29 @@
+.form-group {
+  input {
+    &::placeholder {
+      font-size: 14px;
+      padding: 2px 20px;
+    }
+    &:focus {
+      overflow: none !important;
+      box-shadow: none !important;
+      border: 1px solid grey !important;
+    }
+  }
+}
+.errorMsg {
+  margin: 0 60px;
+}
+.close-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+.input-class {
+  width: 400px;
+  padding: 5px 10px;
+  margin: 0 60px;
+}
+.input-class-2 {
+  width: 115px;
+  padding: 5px 10px;
+}

@@ -1,0 +1,57 @@
+@import "./variables.scss";
+@import "./headerMain.scss";
+@import "./services.scss";
+@import "./blog.scss";
+@import "./contract.scss";
+@import "./footer.scss";
+@import "./appointmentBody.scss";
+@import "./modal.scss";
+@import "./forms.scss";
+@import "./sidebar.scss";
+@import "./appointmentsById.scss";
+
+.submit-btn {
+  background-image: linear-gradient(40deg, #19d3ae, #0fcfec);
+  padding: 10px 30px;
+  color: white;
+  font-weight: 500;
+  border: none;
+}
+.appointment {
+  margin-top: 150px;
+  background-image: url("../images/app-bg.png");
+  background-size: 1850px;
+  position: relative;
+  background-position: center center;
+  height: 420px;
+  &::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(36, 41, 73);
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+  }
+  img {
+    height: 550px;
+    transform: translateY(-130px);
+    margin-left: -60px;
+  }
+}
+.secondary {
+  color: $secondary;
+}
+.calender {
+  color: grey;
+}
+.table-btn {
+  background-image: linear-gradient(40deg, #19d3ae, #0fcfec);
+  padding: 5px 10px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  font-size: 10px;
+  border-radius: 5px;
+}

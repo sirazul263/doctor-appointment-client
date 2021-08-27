@@ -1,0 +1,20 @@
+.appointment-body {
+  background-image: url("../images/chair2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 700px;
+  &::after {
+    height: 700px;
+    content: " ";
+    position: absolute;
+    top: 0%;
+    width: 33%;
+    right: 0%;
+    background-color: $shadow-color;
+    z-index: -50;
+  }
+}
+.app-color {
+  color: $appointment-color;
+}

@@ -1,0 +1,26 @@
+footer {
+  background-image: url("../images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow-y: hidden;
+}
+.social-media {
+  .icon {
+    height: 40px;
+    width: 40px;
+    color: #1cc7c1;
+    border-radius: 50%;
+    border: 1px solid #6acece;
+    padding: 10px;
+  }
+  .active-icon {
+    background-color: #6acece;
+    color: white;
+  }
+}
+.footer-link {
+  text-decoration: none;
+
+  font-weight: 700 !important;
+}

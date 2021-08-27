@@ -1,0 +1,30 @@
+.contact {
+  overflow-y: hidden;
+  background-image: url("../images/appointmentBg.png");
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  height: 650px;
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(12, 11, 27);
+    opacity: 0.9;
+    z-index: -1;
+  }
+  .review-form {
+    input,
+    textarea {
+      width: 600px;
+      border-radius: 5px;
+      &::placeholder {
+        font-size: 12px;
+        padding-left: 20px;
+      }
+    }
+  }
+}

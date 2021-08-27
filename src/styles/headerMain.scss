@@ -1,0 +1,34 @@
+main {
+  height: 600px;
+}
+.header {
+  height: 800px;
+  width: 100%;
+  position: relative;
+  background-image: url("../images/chair2.png");
+  background-size: cover;
+  &::after {
+    height: 700px;
+    content: " ";
+    position: absolute;
+    top: 0%;
+    width: 33%;
+    right: 0%;
+    background-color: $shadow-color;
+    z-index: -50;
+  }
+}
+.info-primary {
+  background-color: #1cc7c1;
+}
+.info-dark {
+  background-color: #3a4256;
+}
+.info-icon {
+  font-size: 2.5em;
+}
+.info-card {
+  height: 100px;
+  padding: 25px;
+  border-radius: 10px;
+}
