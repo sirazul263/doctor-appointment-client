@@ -5,7 +5,7 @@ import Sidebar from "./Sidebar";
 const AllAppointments = () => {
   const [allAppointments, setAllAppointments] = useState({});
   useEffect(() => {
-    fetch("http://localhost:5000/allAppointments")
+    fetch("https://boiling-tor-06083.herokuapp.com/allAppointments")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

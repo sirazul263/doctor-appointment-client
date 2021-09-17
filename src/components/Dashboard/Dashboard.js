@@ -17,7 +17,7 @@ const Dashboard = () => {
     setDate(date);
   };
   useEffect(() => {
-    fetch("http://localhost:5000/appointmentByDate", {
+    fetch("https://boiling-tor-06083.herokuapp.com/appointmentByDate", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ date: date, email: user.email }),

@@ -30,7 +30,7 @@ const ModalForm = ({ modalIsOpen, closeModal, date, data }) => {
     info.service = data.subject;
     info.time = data.visitingHour;
     info.created = new Date();
-    fetch("http://localhost:5000/addAppointment", {
+    fetch("https://boiling-tor-06083.herokuapp.com/addAppointment", {
       method: "POST",
       headers: {
         "content-type": "application/json",

@@ -6,7 +6,7 @@ import DoctorInfo from "./DoctorInfo";
 const Doctors = () => {
   const [doctors, setDoctors] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/doctors")
+    fetch("https://boiling-tor-06083.herokuapp.com/doctors")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
